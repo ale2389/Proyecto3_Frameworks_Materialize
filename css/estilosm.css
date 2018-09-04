@@ -1,11 +1,10 @@
- div{
+div{
   border: 1px solid black;
-}*/
-.container{
-border: 1px solid black;
 }
+.container{
+width: 100%;
+}*/
 .img-logo{
-  width: 70%;
   margin-top: 2vh;
   margin-left: 2vw;
 }
@@ -26,6 +25,9 @@ ul{
 img[src*="foto"]{
   width: 97%;
   margin-bottom: 1vh;
+}
+.botones{
+  margin-top: 2vh;
 }
 #imgcoment{
   width: 30%;
