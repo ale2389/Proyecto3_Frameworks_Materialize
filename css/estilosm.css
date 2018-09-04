@@ -1,0 +1,33 @@
+ div{
+  border: 1px solid black;
+}*/
+.container{
+border: 1px solid black;
+}
+.img-logo{
+  width: 70%;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+.slogan{
+  margin-top: 9vh;
+}
+.img-social {
+  width: 4vw;
+  padding-top:2vh;
+}
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  clear: both;
+}
+img[src*="foto"]{
+  width: 97%;
+  margin-bottom: 1vh;
+}
+#imgcoment{
+  width: 30%;
+  padding: 0.5vh;
+}
