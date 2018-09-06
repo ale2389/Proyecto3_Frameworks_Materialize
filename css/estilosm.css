@@ -1,15 +1,22 @@
-div{
+/*div{
   border: 1px solid black;
+}*/
+body{
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  background-repeat: no-repeat;
+  background-image: url("../img/fondo.jpg");
 }
 .container{
 width: 100%;
-}*/
+}
 .img-logo{
   margin-top: 2vh;
   margin-left: 2vw;
+  border-radius: 10px;
 }
 .slogan{
-  margin-top: 9vh;
+  margin-top: 10vh;
 }
 .img-social {
   width: 4vw;
@@ -24,7 +31,6 @@ ul{
 }
 img[src*="foto"]{
   width: 97%;
-  margin-bottom: 1vh;
 }
 .botones{
   margin-top: 2vh;
@@ -32,4 +38,51 @@ img[src*="foto"]{
 #imgcoment{
   width: 30%;
   padding: 0.5vh;
+}
+.png{
+  width: 0.1vw;
+}
+.bordes{
+  border-top: 1px solid grey;
+}
+#icon_mail{
+  color: White;
+}
+h5{
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+}
+p{
+font-family: 'Open Sans', sans-serif;
+text-align: justify;
+}
+#blog{
+  background-color: white;
+}
+div{
+  padding: 0 0.5vw;
+}
+@media only screen and (max-width: 768px){
+
+  .slogan{
+    text-align: center;
+    margin-top: 8vh;
+    }
+    div{
+      padding: 0.5vh 0.5vw;
+    }
+}
+/*smarphones*/
+@media only screen and (max-width: 600px){
+  .slogan{
+    text-align: center;
+    margin-top: 4vh;
+    }
+    div{
+      padding: 0.5vh 0.5vw;
+    }
+    .container{
+    width: 105%;
+  
+    }
 }

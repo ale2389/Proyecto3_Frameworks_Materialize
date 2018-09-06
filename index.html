@@ -8,6 +8,7 @@
     <!--Importar la hojas de estilos de materialize css-->
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="stylesheet" href="css/estilosm.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans" rel="stylesheet">
     <title>Blog Turismo</title>
   </head>
   <body>
@@ -17,24 +18,32 @@
   <div class="col s12 m12 l12">
 
       <div class="col l3 m3 s12 right-align">
-        <img src="img/turismo_logo.png" alt="logo" class="img-logo" style="width:80%">
+        <img src="img/turismo_logo.jpg" alt="logo" class="img-logo" style="width:80%">
       </div>
 
       <div class="col l9 m9 s12">
-        <div class="row center-align botones show-on-large">
-            <button class = "btn waves-effect waves-teal"><i class="material-icons left">home</i>Inicio</button></td>
-            <button class = "btn waves-effect waves-teal"><i class="material-icons left">location_on</i>Estuve en...</button></td>
-            <button class = "btn waves-effect waves-teal"><i class="material-icons left">star</i>Mejores viajes</button></td>
-            <button class = "btn waves-effect waves-teal"><i class="material-icons left">mode_comment</i>Recomendaciones</button></td>
-          </div>
-          <div class="row center-align botones hide-on-large show-on-medium-and-down">
-            <a class="waves-effect waves-light btn btn-small" href="#"><i class="material-icons left">home</i>Inicio</a>
-            <a class="waves-effect waves-light btn btn-small"href="#"><i class="material-icons left">location_on</i>Estuve en...</a>
-            <a class="waves-effect waves-light btn btn-small"href="#"><i class="material-icons left">star</i>Mejores viajes</a>
-            <a class="waves-effect waves-light btn btn-small"href="#"><i class="material-icons left">mode_comment</i>Recomendaciones</a>
+          <div class="row center-align botones">
+            <a class="btn waves-effect waves blue darken-3">
+               <i class="material-icons left">home</i>
+                 <span class="hide-on-med-and-down">Inicio</span>
+            </a>
+            <a class="btn waves-effect waves blue darken-3">
+               <i class="material-icons left">location_on</i>
+                 <span class="hide-on-med-and-down">Estuve en...</span>
+            </a>
+            <a class="btn waves-effect waves blue darken-3">
+               <i class="material-icons left">star</i>
+                 <span class="hide-on-med-and-down">Mejores viajes</span>
+            </a>
+            <a class="btn waves-effect waves blue darken-3">
+               <i class="material-icons left">mode_comment</i>
+                 <span class="hide-on-med-and-down">Recomendaciones</span>
+            </a>
         </div>
+        <div class="col l12 m12 s12">
         <div class="row slogan">
-          <h5>Descubriendo nuevas direcciones</h5>
+          <h5 class="white-text ">Descubriendo nuevas direcciones</h5>
+        </div>
         </div>
       </div>
   </div>
@@ -76,15 +85,60 @@
 </div><!--contenido redes e imagenes-->
 <!--entrada del blog-->
 <div class="row">
-    <div class="col l9 m9 s12">
-      <p><img src="img/comentario1.jpg" alt="fotocomentario" id="imgcoment" align="left"> <h5>Turismo nocturno</h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in posuere nisl. Donec volutpat, sem in tristique porta, metus arcu sodales elit, tristique placerat dolor massa eu quam. Vivamus cursus ipsum eu accumsan auctor. Ut et iaculis ligula. Duis finibus nisl sed auctor mattis. Praesent rutrum neque augue, eu eleifend quam rutrum vitae. Mauris a velit molestie, molestie lorem vulputate, volutpat nunc. Aenean porttitor magna neque, vel efficitur tellus elementum non. Nullam libero ipsum, luctus ut dictum a, eleifend sed nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit maximus pharetra. Proin nec eleifend lectus, et tempor ante. Suspendisse posuere, libero in facilisis efficitur, velit velit porttitor purus, sit amet luctus sapien sem eu mauris.</p>
+  <div class="col l9 m9 s12 ">
+   <div class="row">
+    <div class="col l12 m12 s12 card-panel white">
+      <p id="blog"><img src="img/comentario.jpg" alt="fotocomentario" id="imgcoment" align="left" class="responsive-img"> <h5>Turismo nocturno</h5>
+      <div class="chip">6 de Septiembre de 2018
+      <img src="img/event.png" alt="event note" class="png">
+      </div>
+      <div class="chip">La Paz - Bolivia
+      <img src="img/location.png" alt="event note" class="png">
+    </div></br></br>
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in posuere nisl. Donec volutpat, sem in tristique porta, metus arcu sodales elit, tristique placerat dolor massa eu quam. Vivamus cursus ipsum eu accumsan auctor. Ut et iaculis ligula. Duis finibus nisl sed auctor mattis. Praesent rutrum neque augue, eu eleifend quam rutrum vitae. Mauris a velit molestie, molestie lorem vulputate, volutpat nunc. Aenean porttitor magna neque, vel efficitur tellus elementum non. Nullam libero ipsum, luctus ut dictum a, eleifend sed nisi. </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit maximus pharetra. Proin nec eleifend lectus, et tempor ante. Suspendisse posuere, libero in facilisis efficitur, velit velit porttitor purus, sit amet luctus sapien sem eu mauris.Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco lab labore eu ma.</p>
+  </div>
+ </div>
+  <!--Formulario-->
+  <div class="row">
+    <form class="col s12 m12 l12 card-panel blue">
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix white-text">account_circle</i>
+            <input  type="text" class="validate white-text">
+            <label  class="white-text">Nombre</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix white-text">email</i>
+            <input type="email" class="validate white-text">
+            <label class="white-text">Correo electronico</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m12 l12">
+            <i class="material-icons prefix white-text">comment</i>
+            <textarea class="materialize-textarea white-text"></textarea>
+            <label class="white-text">Comentario</label>
+          </div>
+        </div>
+        <div class="row right-align">
+          <button class="btn waves-effect waves white blue-text text-darken-3" type="submit" name="action">
+            Enviar
+            <i class="material-icons right">send</i></button>
+        </div>
+      </form>
+  </div>
+  <!--Formulario -->
     </div>
-    <div class="col l3 m3 s12">
-
+  <div class="col l3 m3 s12">
+    <div class="row">
+      <div class="col l12 m12 s12 center-align card-panel white">
+      <img src="img/perfil.jpg" alt="fotoperfil"  class="responsive-img circle"> <h5>Perfil del autor</h5>
+      <p class="bordes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in posuere nisl. Donec volutpat, sem in tristique porta, metus arcu sodales elit, tristique placerat dolor massa eu quam.</p>
     </div>
+   </div>
+  </div>
 </div>
 <!--entrada del blog-->
-
 </div><!--contenedor-->
 <!--script-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
